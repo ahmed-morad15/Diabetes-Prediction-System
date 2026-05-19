@@ -181,12 +181,12 @@ http://127.0.0.1:5000
 
 ## Main Interface
 
-![Main Interface](screenshots\Diabetic-Prediction.png)
+![Main Interface](screenshots/Diabetic-Prediction.png)
 ---
 
 ## Prediction Result
 
-![Prediction Result](screenshots\Diabetic-Prediction-System.png)
+![Prediction Result](screenshots/Diabetic-Prediction-System.png)
 ---
 
 # Future Improvements
