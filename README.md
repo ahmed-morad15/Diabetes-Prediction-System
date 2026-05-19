@@ -67,6 +67,7 @@ An interactive chatbot that provides:
 
 # Project Structure
 
+```bash
 Diabetes-Prediction-System/
 │
 ├── backend/
@@ -95,14 +96,18 @@ Diabetes-Prediction-System/
 │
 └── README.md
 
+````
+
 ---
 
 # Installation
 
 ## 1. Clone the Repository
 
+```bash
 git clone https://github.com/ahmed-morad15/Diabetes-Prediction-System.git
 cd diabetes-app
+```
 
 ---
 
@@ -110,27 +115,37 @@ cd diabetes-app
 
 ### Windows
 
+```bash
 python -m venv venv
+```
 
 Activate the environment:
 
+```bash
 venv\Scripts\activate
+```
 
 ---
 
 ## 3. Install Requirements
 
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
 # Run the Application
 
+```bash
 python backend/server.py
+```
 
 The server will run on:
 
+```bash
 http://127.0.0.1:5000
+```
 
 ---
 
@@ -147,6 +162,7 @@ http://127.0.0.1:5000
 
 # Example Prediction Request
 
+```json
 {
   "gender": 1,
   "age": 45,
@@ -157,6 +173,7 @@ http://127.0.0.1:5000
   "HbA1c_level": 6.2,
   "blood_glucose_level": 145
 }
+```
 
 ---
 
@@ -170,9 +187,7 @@ http://127.0.0.1:5000
 ## Prediction Result
 
 ![Prediction Result](screenshots\Diabetic-Prediction-System.png)
-
 ---
-
 
 # Future Improvements
 
