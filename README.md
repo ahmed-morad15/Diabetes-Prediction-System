@@ -72,6 +72,12 @@ Diabetes-Prediction-System/
 ├── backend/
 │   └── server.py
 │
+├── Frontend/
+│   |── src
+│   |── public
+│   |── Services
+│   └── index.html
+|
 ├── model/
 │   └── Diabetes_Prediction_Model.pkl
 │
